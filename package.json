@@ -1,0 +1,47 @@
+{
+  "name": "nfcProject",
+  "version": "1.0.0",
+  "description": "Node js Server",
+  "main": "index",
+  "scripts": {
+    "start": " node index.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "JWT",
+    "Token",
+    "based",
+    "Authentication"
+  ],
+  "author": "Kirti Jadhav",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.2",
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^3.1.9-1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.3.1",
+    "html": "^1.0.0",
+    "jsonfile": "^5.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9",
+    "nodemailer": "^6.7.1",
+    "npm-check-updates": "^4.0.1",
+    "passport": "^0.4.1",
+    "passport-http": "^0.3.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "randomstring": "^1.1.5",
+    "rebuild": "^0.1.2",
+    "request": "^2.88.0",
+    "sizeof": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
